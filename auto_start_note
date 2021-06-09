@@ -1,0 +1,7 @@
+#auto recording video when power on
+cd ~
+nano .bashrc
+#add these code
+pkill -p python
+cd ~/01_usbcam
+python3 cv2_video_recorder.py 
